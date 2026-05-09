@@ -1,0 +1,112 @@
+body{
+background-color:rgb(143, 244, 165);
+align-items: center;
+justify-items: center;
+text-align: center;
+}
+
+.open{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    background-color:rgb(2, 54, 11);
+    color:bisque
+}
+
+.leave{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(2, 54, 11);
+    color:bisque
+}
+
+h3{
+    color: rgb(2, 54, 11);
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+     color: rgb(2, 54, 11);
+     text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+h4{
+    color: rgb(9, 0, 0);
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 12px;
+    font-family:monospace;
+    text-align: center;
+}
+
+.box{
+    margin-top: 200px;
+}
+
+
+.next{
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(2, 54, 11);
+    color:bisque
+}
+
+.back{
+    position: absolute;
+    top: 640px;
+    left: 125px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(2, 54, 11);
+    color:bisque
+}
+
+.box1 {
+    background-image: url(greenbg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 740px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(11, 11, 9);
+    box-sizing: border-box;
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+    font-family:monospace;
+    text-align: center;
+}
+
+.box3 {
+    position: relative;
+    height: 740px;
+    width: 340px;
+    display: flex;
+    gap: 10px;
+}
+
+.shin1 {
+    position: absolute;
+    top: 10px;
+    left:0px;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+.shin2 {
+    position: absolute;
+    top: 430px;
+    left:0px;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn 4s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
