@@ -39,7 +39,7 @@ h4{
 }
 
 .box{
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 
@@ -65,8 +65,8 @@ h4{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 740px;
-    width: 340px;
+    height: 850px;
+    width: 440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
